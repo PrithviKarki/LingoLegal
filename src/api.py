@@ -4,11 +4,13 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 from dotenv import load_dotenv
+from flask_cors import CORS
 
 # Load API keys from your .env file
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app) 
 
 # 1. Connect to the local Vector Database
 chroma_client = chromadb.PersistentClient(path="./data/index")
