@@ -75,3 +75,37 @@
   z-index: 10;
   pointer-events: none; /* Lets you click through it */
 }
+
+/* NEW: Upload Zone Styles */
+.upload-zone {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 2px dashed #007bff;
+  text-align: center;
+}
+
+.upload-zone input[type="file"] {
+  display: none; /* Hide the ugly default file input */
+}
+
+.upload-label {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.upload-label:hover {
+  background-color: #0056b3;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
