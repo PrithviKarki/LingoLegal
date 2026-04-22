@@ -91,7 +91,8 @@ npm run dev
 
 ## Screenshots
 
-*(Insert an image of the split-screen application working here. You can drag and drop an image file directly into this README via the GitHub website.)*
+<img width="1125" height="799" alt="Screenshot 2026-04-22 at 3 33 47 PM" src="https://github.com/user-attachments/assets/b2e26808-2d52-4bcf-a9d9-8a0fe8450f9e" />
+
 
 ---
 
